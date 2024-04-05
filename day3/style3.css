@@ -1,0 +1,80 @@
+
+/* .parent{
+    background-color: palevioletred;
+    color: antiquewhite;
+    width: 400px;
+    height: 400px;
+   h1{
+    background-color: blue;
+   }
+}
+@media (800px<=width<=1000px) {
+    .parent{
+        background-color: aqua;
+        color: brown;
+    h1{
+        background-color: black;
+    }
+    }
+} */
+button{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 50px;
+    width: 100px;
+    transition-property: scale,backgroubd-color;
+    transition-timing-function: ease-in;
+    transition-duration: 500ms;  */
+    position: absolute;
+    scale: 2;
+    top: 50%;
+    left: 50%;
+   animation-name: tanu;
+   animation-duration: 4s;
+   animation-timing-function: linear;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+/* button:hover{
+    background-color: blue;
+    scale: 2;cursor: pointer;
+} */
+@keyframes tanu 
+{ 
+    /* from{
+        background-color: rgb(153, 67, 67);
+        top: 20px;
+        left: 40px;
+    }
+   to{
+        background-color: brown;
+        top: 20px;
+        left: 40px;
+    } */
+    0%{
+
+left: 0px;
+top: 0px;
+}
+25%{
+
+    left: 200px;
+    top: 0px;
+    }
+    50%{
+
+        left: 200px;
+        top: 200px;
+        }
+        75%{
+
+            left: 0px;
+            top: 200px;
+            }
+            100%{
+
+                left: 0px;
+                top: 0px;
+                }    
+}

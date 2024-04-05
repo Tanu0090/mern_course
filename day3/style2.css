@@ -1,0 +1,23 @@
+*{
+    padding: 0%;
+    margin: 0%;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(189, 138, 146);
+    min-height: 100vh;
+    min-width:100vw ;
+}
+.parent{
+    height: 100px;
+    width: 100px;
+    background-color: brown;
+    position: static;
+}
+/* menu{
+    background-color: aqua;
+} */
+h1{
+    position: sticky;
+    top: 10px;
+}
