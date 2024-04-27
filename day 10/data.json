@@ -1,0 +1,17 @@
+[
+    {
+      "name": "curry",
+      "price": 23,
+      "id": 1
+    },
+    {
+      "name": "change",
+      "price": 27,
+      "id": 2
+    },
+    {
+      "name": "tanu",
+      "price": 27,
+      "id": 3
+    }
+  ]
