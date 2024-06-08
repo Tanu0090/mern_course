@@ -1,0 +1,47 @@
+.signup-main-container {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 150px;
+    border: 1px solid black;
+    border-radius: 15px;
+
+    /* margin: 400px 160px; */
+    margin: 150px 500px;
+    padding: 30px;
+    width: 500px;
+    background-color: rgb(72, 71, 95);
+    
+
+    .search {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .heading {
+        color: white;
+        text-align: center;
+        font-style: italic;
+        padding: 15px;
+    }
+   .name-password{
+        height: 35px;
+        width: 300px;
+
+        font-size:medium;
+        border-radius: 16px;
+        text-align: center;
+    }
+    .signin-btn{
+        margin: 18px 100px;
+        border-radius: 16px;
+        padding: 10px 15px;
+        font-size: larger;
+        background-color: rgb(234, 237, 238);
+   }
+}
